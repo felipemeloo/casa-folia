@@ -1,0 +1,10 @@
+img {
+	max-width: 100%;
+	height: 117px;
+}
+
+.tamanhoImg {
+	height: 60px; 
+	width: 200px;
+	padding: 1%;
+}
