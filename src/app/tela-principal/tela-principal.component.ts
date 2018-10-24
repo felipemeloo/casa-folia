@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TelaPrincipalComponent implements OnInit {
 
+  email: any;
+
+  constructor(){}
   
   textTransformation() {
     let deg = 1000;
@@ -20,5 +23,6 @@ export class TelaPrincipalComponent implements OnInit {
   ngOnInit() { 
     this.textTransformation();
   }
+
 
 }
