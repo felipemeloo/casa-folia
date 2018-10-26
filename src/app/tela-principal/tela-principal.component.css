@@ -155,16 +155,6 @@ html, body {
 
 }
 
-footer {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	background-color: red;
-}
-
-footer p {
-	margin-bottom: .25rem;
-}
-
 .containerr {
   margin: auto;
   position: relative;
@@ -172,6 +162,24 @@ footer p {
   transform: rotate(-61deg);
   height: 200px;
   width: 200px;
+}
+
+.rodape {
+	width: 100%;
+	height: 300px;
+	float: left;
+	background-color: purple;
+}
+
+img {
+	max-width: 100%;
+	height: 117px;
+}
+
+.tamanhoImg {
+	height: 60px; 
+	width: 200px;
+	padding: 1%;
 }
 
 .containerr div {
