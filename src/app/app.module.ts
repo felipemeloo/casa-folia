@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material';
 import { TooltipsComponent } from './tooltips/tooltips.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { TooltipsComponent } from './tooltips/tooltips.component';
     TelaPrincipalComponent,
     NavbarComponent,
     TooltipsComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
