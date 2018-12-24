@@ -6,8 +6,6 @@ html, body {
 }
 
 .primeiraParte {
-	width: 100%;
-	height: 800px;
 	overflow: hidden;
 	padding: 1%;
 	
@@ -20,9 +18,7 @@ html, body {
 	background-color: white;
 }
 
-.segundaParte {	
-	width: 100%;
-	height: 800px;
+.segundaParte {
 	padding: 1%;
 	background-color: #00ffdc;
 	float: left;
@@ -44,23 +40,14 @@ html, body {
 	width: 300px;
 }
 
-.textoInterno {
-	margin-left: 50%;
-	padding: 1%;
-}
 
 .terceiraParte {
-	width: 100%;
-	height: 800px;
 	padding: 1%;
 	background-color: pink;
 	float: left;
 }
 
 .galeria {
-	width: 100%;
-	padding: 1%;
-	float: left;
 	background-color: blue;
 }
 
@@ -70,33 +57,19 @@ html, body {
 }
 
 .primeiroPacote {
-	width: 30%;
-	height: 70%;
-	padding: 1%;
 	border-radius: 10px;
-	margin-top: 5%;
 	background-color:#0927bb;
-	margin-left: 2%;
+
 }
 
 .segundoPacote {
-	width: 30%;
-	height: 70%;
-	padding: 1%;
 	border-radius: 10px;
-	margin-top: -40.9%;
-	margin-left: 37%;
 	background-color:#0927bb;
 
 }
 
 .terceiroPacote {
-	width: 30%;
-	height: 70%;
-	padding-top: 1%;
 	border-radius: 10px;
-	margin-left: 70%;
-	margin-top: -40.9%;
 	background-color:#0927bb;
 }
 
