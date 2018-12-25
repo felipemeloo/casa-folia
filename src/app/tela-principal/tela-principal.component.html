@@ -4,11 +4,14 @@
 </head>
 <body class="col">
 <div>
-  <div class="primeiraParte col-lg-12">
-    <img class="img-fluid container-fluid" style="width: 1350px; height: 800px;" src="./../assets/home.png">
+  <div class="container-fluid primeiraParte">
+    <figure class="figure">
+      <img class="img-fluid" style="width: 100%; height: 100%;" src="./../assets/home.png">
+    </figure>
 
   </div>
-  <div class="segundaParte col-lg-12">
+
+  <div id="aboutUs" class="segundaParte mb-4">
     <div class="container-fluid row">
       <div class="col-lg-6">
         <figure class="figure">
@@ -35,9 +38,9 @@
     </div>
   </div>
 
-  <div class="galeria">
+  <div style="background-color: blue;" class="galeria container-fluid mb-4">
     <h1 style="text-align: center; color: purple; font-size: 4rem;">Galeria</h1>
-    <div class="row col-lg-12" style="margin-top: 70px;">
+    <div class="row" style="margin-top: 70px;">
       <div class="col-lg-6">
         <img style="width: 570px; height: 631px; margin-left: 70px;" class=" img-fluid" src="./../assets/570x640.png">
         <img style="width: 570px; height: 300px; margin-top: 30px; margin-left: 70px;" class="img-fluid"
@@ -49,14 +52,13 @@
         <img style="width: 570px; height: 300px; margin-top: 30px;" class="img-fluid" src="./../assets/14.png">
       </div>
     </div>
-    <div style="margin-top: 50px;"></div>
   </div>
 
-  <div class="terceiraParte">
+  <div class="terceiraParte container-fluid">
     <h1 style="text-align: center; color: purple;">Escolha seu pacote</h1>
     <div class="row" style="margin-top: 60px;">
       <div style="margin-left: 100px;"></div>
-      <div class="primeiroPacote col-lg-3">
+      <div class="primeiroPacote col-lg-3 mb-4">
         <h5><p style="text-align: center; color: white;">Folia 1</p></h5>
         <div>
           <p style="text-align: center; color: white;"><i style="color: green;" class="fas fa-check"></i>Monitores</p>
@@ -98,7 +100,7 @@
         </div>
       </div>
 
-      <div class="segundoPacote col-lg-3">
+      <div class="segundoPacote col-lg-3 mb-4">
         <h5><p style="text-align: center; color: white;">Folia 2</p></h5>
         <div>
           <p style="text-align: center; color: white;"><i style="color: green;" class="fas fa-check"></i>Monitores</p>
@@ -140,7 +142,7 @@
       </div>
 
 
-      <div class="terceiroPacote col-lg-3">
+      <div class="terceiroPacote col-lg-3 mb-4">
         <h5><p style="text-align: center; color: white;">Folia Escola</p></h5>
         <div>
           <p style="text-align: center; color: white;"><i style="color: green;" class="fas fa-check"></i>Monitores</p>
@@ -220,7 +222,7 @@
     <div class="container-fluid">
       <h1 style="text-align: center; color: purple; font-size: 3rem;">Contate-nos</h1>
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6">
           <div>
             <h3 style="text-align: center; color: purple;">Tire sua dúvida agora!</h3>
             <p style="font-size:2rem; text-align: center; color: purple;">Nos envie uma mensagem para que possamos
@@ -230,7 +232,7 @@
                class="far fa-envelope-open"></i>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <form>
             <div class="form-group">
               <label for="exampleFormControlInput1" style="color: white;">Seu nome</label>
@@ -269,7 +271,7 @@
 
   <footer class="rodape site-footer">
     <div class="footer-area-wrap">
-      <div class="container">
+      <div class="container-fluid">
         <section id="footer-area" class="footer-area widget-area row">
           <aside class="col-xs-12 col-sm-6 col-md-3 widget widget-about">
             <div style="margin-left: 40px; margin-top: 40px;">

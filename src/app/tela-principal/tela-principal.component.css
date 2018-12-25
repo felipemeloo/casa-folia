@@ -8,6 +8,7 @@ html, body {
 .primeiraParte {
 	overflow: hidden;
 	padding: 1%;
+  background-color: #fd464e;
 	
 }
 
@@ -45,10 +46,6 @@ html, body {
 	padding: 1%;
 	background-color: pink;
 	float: left;
-}
-
-.galeria {
-	background-color: blue;
 }
 
 .letraInicio {
