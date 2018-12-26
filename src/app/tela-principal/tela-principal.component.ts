@@ -10,19 +10,12 @@ export class TelaPrincipalComponent implements OnInit {
   email: any;
 
   constructor(){}
-  
-  textTransformation() {
-    let deg = 1000;
-    for (let i = 1; i <= 30; i++) {
-      let div = document.querySelector(".containerr div:nth-child(" + i + ")") as HTMLElement;
-      div.style.transform = 'rotate(' + deg + 'deg)';
-      deg = deg + 10;
-    };
-  }
+
 
   ngOnInit() { 
-    this.textTransformation();
   }
+
+
 
 
 }

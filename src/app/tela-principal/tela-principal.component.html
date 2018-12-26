@@ -4,14 +4,14 @@
 </head>
 <body class="col">
 <div>
-  <div class="container-fluid primeiraParte">
+  <div id="home" class="container-fluid primeiraParte">
     <figure class="figure">
       <img class="img-fluid" style="width: 100%; height: 100%;" src="./../assets/home.png">
     </figure>
 
   </div>
 
-  <div id="aboutUs" class="segundaParte mb-4">
+  <div id="sobre" class="segundaParte mb-4">
     <div class="container-fluid row">
       <div class="col-lg-6">
         <figure class="figure">
@@ -38,27 +38,26 @@
     </div>
   </div>
 
-  <div style="background-color: blue;" class="galeria container-fluid mb-4">
+  <div id="galeria" style="background-color: blue;" class="galeria container-fluid">
     <h1 style="text-align: center; color: purple; font-size: 4rem;">Galeria</h1>
-    <div class="row" style="margin-top: 70px;">
-      <div class="col-lg-6">
-        <img style="width: 570px; height: 631px; margin-left: 70px;" class=" img-fluid" src="./../assets/570x640.png">
-        <img style="width: 570px; height: 300px; margin-top: 30px; margin-left: 70px;" class="img-fluid"
-             src="./../assets/11.png">
-      </div>
-      <div class="col-lg-6">
-        <img style="width: 570px; height: 300px;" class="img-fluid" src="./../assets/20.png">
-        <img style="width: 570px; height: 300px; margin-top: 30px;" class="img-fluid" src="./../assets/13.png">
-        <img style="width: 570px; height: 300px; margin-top: 30px;" class="img-fluid" src="./../assets/14.png">
+    <div class="row " style="margin-top: 70px;">
+      <div class="row">
+        <div class="col-lg-6 col-md-4 col-xs-6">
+          <a class="thumbnail" href="#" data-image-id="" data-toogle="modal" data-title=""
+             data-image="./../assets/570x640.png"
+             data-target="#image-gallery">
+            <img class="img-thumbnail" src="./../assets/570x640.png" alt="Imagem">
+          </a>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="terceiraParte container-fluid">
+  <div id="pacotes" style="background-color: pink;" class="col-lg-12">
     <h1 style="text-align: center; color: purple;">Escolha seu pacote</h1>
     <div class="row" style="margin-top: 60px;">
       <div style="margin-left: 100px;"></div>
-      <div class="primeiroPacote col-lg-3 mb-4">
+      <div class="primeiroPacote col-xs-12 col-lg-3 mb-4">
         <h5><p style="text-align: center; color: white;">Folia 1</p></h5>
         <div>
           <p style="text-align: center; color: white;"><i style="color: green;" class="fas fa-check"></i>Monitores</p>
@@ -91,7 +90,21 @@
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <p style="text-align: justify;">Convite virtual, vela(numeral), mesa tema(dentro do catálogo),
+                      telão, toalhas brancas, capas para
+                      cadeiras,
+                      lembranças(30% dos convidados), 18 tipos de salgados - N&N buffet, 08 tipos de doces - Maria
+                      Amélia, bolo copa - Maria Amélia,
+                      mousse de maracujá, gelatina, dindim, espetinho de frango, folheado de castanha e nutella,
+                      barquete de salpicão, pão de queijo,
+                      cachorro quente, mini pizza - 2 sabores, refrigerante, coquetel sem álcool, suco, água.</p>
+
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -132,7 +145,19 @@
               </button>
             </div>
             <div class="modal-body">
-              ...
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <p style="text-align: justify;">Convite virtual, vela(numeral), mesa tema(dentro do catálogo),
+                      toalhas brancas(tipo sousplat), capas para
+                      cadeiras,
+                      lembranças(30% dos convidados), 12 tipos de salgados - N&N buffet, 06 tipos de doces - Maria
+                      Amélia, bolo copa - Maria Amélia, pipoca, pipoca, nuggets, pão de queijo, cachorro quente,
+                      mini pizza - 2 sabores, refrigerante, suco, água.</p>
+
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -175,38 +200,14 @@
             <div class="modal-body">
               <div class="container">
                 <div class="row">
-                  <div class="col-sm">
-                    <p>Convite virtual</p>
-                    <p>Vela (numeral)</p>
-                    <p>Mesa tema (dentro do catálogo)</p>
-                    <p>Telão</p>
-                    <p>Toalhas brancas (tipo sousplat)</p>
-                    <p>Capas para cadeiras</p>
-                    <p>Lembranças (30% dos convidados)</p>
-                  </div>
-                  <div class="col-sm">
-                    <p>18 Tipos de salgados – N&N buffet</p>
-                    <p>08 Tipos de doces – Maria Amélia</p>
-                    <p>Bolo copa – Maria Amélia</p>
-                    <p>Mousse de maracujá</p>
-                    <p>Gelatina</p>
-                    <p>Dindim</p>
-                    <p>Espetinho de frango</p>
-                  </div>
-                  <div class="col-sm">
-                    <p>Folheado de castanha e Nutella</p>
-                    <p>Barquete de salpicão</p>
-                    <p>Pão de queijo</p>
-                    <p>Cachorro quente</p>
-                    <p>Mini pizza – 2 sabores</p>
-                    <p>Refrigerante</p>
-                    <p>Coquetel sem álcool</p>
-                    <p>Suco</p>
-                    <p>Água</p>
+                  <div class="col">
+                    <p style="text-align: justify;">Convite virtual, coxinha de frango, enroladinho de salcicha, quibe,
+                      pipoca, cachorro quente, mini pizza, brigadeiro, refrigerante, suco de uva, geladinho, água, 3 horas de festa,
+                      mínimo de 45 criançasvela(numeral).</p>
+
                   </div>
                 </div>
               </div>
-              <app-carousel></app-carousel>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -218,7 +219,7 @@
     <div style="margin-top: 100px;"></div>
   </div>
 
-  <div class="contrato">
+  <div class="contrato" id="contato">
     <div class="container-fluid">
       <h1 style="text-align: center; color: purple; font-size: 3rem;">Contate-nos</h1>
       <div class="row">
@@ -228,7 +229,9 @@
             <p style="font-size:2rem; text-align: center; color: purple;">Nos envie uma mensagem para que possamos
               esclarecer suas
               dúvidas!</p>
-            <i style="font-size: 20rem; margin-left: 120px; margin-top: 100px; color: white;"
+          </div>
+          <div class="col-xs-12" style="margin-bottom: 50px; text-align: center;">
+            <i style="font-size: 20rem; color: white;"
                class="far fa-envelope-open"></i>
           </div>
         </div>
@@ -239,12 +242,22 @@
               <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nome Completo">
             </div>
             <div class="form-group">
-              <div>
-                <label for="exampleFormControlInput1" style="color: white;">Endereço de e-mail para resposta</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu e-mail">
+              <label for="exampleFormControlInput1" style="color: white;">Endereço de e-mail para resposta</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu e-mail">
+            </div>
+            <div class="form-group row">
+              <div class="col-lg-3">
                 <label style="color: white;">Digite seu número</label>
                 <input type="number" class="form-control" id="exampleFormControlInput1"
                        placeholder="Seu número">
+              </div>
+              <div class="col-lg-3 ml-5">
+                <label style="color: white;">Escolha o pacote</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Folia 1</option>
+                  <option>Folia 2</option>
+                  <option>Folia Escola</option>
+                </select>
               </div>
             </div>
             <div class="form-group">
@@ -307,7 +320,7 @@
           </aside>
           <aside style="margin-top: 50px;" class="col-xs-12 col-sm-6 col-md-3 widget widget-about">
             <h3 style="margin-left: 60px; color: white;">Localização</h3>
-            <div style="margin-top: 40px; margin-left: 50px;">
+            <div style="margin-top: 40px; margin-left: 50px; text-align: center;">
               <iframe class="mapa"
                       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d959.6497475351105!2d-47.92305600000001!3d-15.825085000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6234ee6b6be91354!2sCasa+da+Folia!5e0!3m2!1spt-BR!2sus!4v1519242610994"
                       frameborder="0" allowfullscreen="">
